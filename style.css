@@ -11,9 +11,15 @@ body {
     color: rgb(20, 60, 40);
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: "Nunito", sans-serif;
     margin: 30px 0;
+    color: rgb(25, 90, 55);
+}
+
+h4 {
+    font-family: "Nunito", sans-serif;
+    margin: 10px 0px -10px 0px;
     color: rgb(25, 90, 55);
 }
 
@@ -134,12 +140,12 @@ header nav ul a:hover {
     background-color: rgb(255, 255, 255);
     border-radius: 30px;
     box-shadow: 0 15px 45px rgba(40, 180, 120, 0.25);
-    margin: 20px 650px 20px 650px;
+    margin: 20px 80px 20px 80px;
     text-align: center;
 }
 
 .form {
-    max-width: 520px;
+    max-width: 900px;
     margin: 40px auto 0;
     margin-bottom: 20px;
     background-color: rgb(255, 255, 255);
@@ -208,6 +214,37 @@ footer ul li a {
 
 .abt{
     margin-top: -16px;
+}
+
+#benefit{
+    margin: 10px 0px 10px 0px;
+    width: 247px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid #005111;
+    border-radius: 13px;
+}
+
+.add_benefit{
+    cursor: pointer;
+    padding: 10px 11px;
+    font-size: 15px;
+    border: none;
+    border-radius: 12px;
+    background: rgb(60, 200, 140);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.delete_button{
+    cursor: pointer;
+    padding: 4px 7px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    background: rgb(195 56 56);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;  
 }
 
 @media (max-width: 600px) {
